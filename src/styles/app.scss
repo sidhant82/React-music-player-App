@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h1,
+h2,
+h3 {
+  color: rgb(53, 51, 51);
+}
+body {
+  font-family: "Lato", sans-serif;
+}
+h3,
+h4 {
+  font-weight: 400;
+  color: grey;
+}
+// .App {
+//   background: linear-gradient(
+//       to bottom,
+//       rgba(0, 0, 0, 0.9),
+//       rgba(0, 0, 0, 0.05)
+//     ),
+//     url("https://images.pexels.com/photos/6966/abstract-music-rock-bw.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+//   height: 100vh;
+//   background-size: cover;
+//   background-position: center;
+//   background-repeat: no-repeat;
+// }
+// .glass {
+//   border: 0px solid red;
+//   width: 20%;
+//   margin: auto;
+//   background: rgba(111, 38, 38, 0.25);
+//   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+//   backdrop-filter: blur(5px);
+//   -webkit-backdrop-filter: blur(5px);
+//   border-radius: 30px;
+// }
+
+@import "./player";
+@import "./song";
+@import "./library";
+@import "./nav";
